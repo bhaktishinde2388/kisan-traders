@@ -42,30 +42,7 @@
   
   }
   
-  .dropdown_menu {
-    display: none;
-    background-color: none;
-  }
   
-  .menu_bar ul li:hover .dropdown_menu {
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    font-size: 20px;
-  }
-  
-  .menu_bar ul li:hover .dropdown_menu ul {
-    display: block;
-    margin: 10px;
-  }
-  
-  .menu_bar ul li:hover .dropdown_menu ul li {
-    width: 250px;
-    padding: 5px;
-    background-color:white;
-    border-bottom-style: solid;
-  }
   .text
   {
     padding-left: 10px;
@@ -127,3 +104,5 @@
     font-weight: bold;
     font-size: large;
 }
+
+
