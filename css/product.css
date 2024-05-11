@@ -1,19 +1,14 @@
 
-.product-card
+.product-card-size
 {
-  margin:  30px;
-  border: 2px solid gray;
-  border-radius: 5%;  
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  width:300px;
+  height: 510px;
 }
 
 .product-img
 {
-  height:230px;
-  width: 200px;
-  display: block;
-  margin:0 auto;
-  border-radius: 5%;
+    border-bottom: 2px solid orange;
+    height: 300px;
 }
 
 .card-body
