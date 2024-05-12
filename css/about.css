@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+.a-heading
+{  color: black;
+    text-align: left;
+    font-size: 50px;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding-left: 150px;
+}
+
+.a-main
+{
+    border: 2px solid gray;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  height: 600px;
+  margin: 20px;
+}
+.a-img
+{
+    height: 200px;
+    width: 200px;
+  padding: 20px;
+}
