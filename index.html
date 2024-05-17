@@ -16,9 +16,9 @@
 
      </style>
 </head>
-<body>
+<body  id="body">
   <!--navbar  -->
-  <nav class="navbar navbar-expand-lg  fix-top py-3 " >
+  <nav class="navbar navbar-expand-lg  fix-top py-3 " style="background-color: green;">
     <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">
             <img src="./icons/index/logo.png" class="logo" alt="logo">
@@ -47,13 +47,13 @@
                </li>
             </ul>
             
-            <img src="./icon/night-mode (1).png" class="theme " id="dark-mode" onclick=darkmode()>
-            <img src="./icon/light1.png" class="theme" id="light-mode"  onclick=lightmode()>
-
+            <img src="./icon/night-mode (1).png" class="theme icon-position  " id="dark-mode" onclick=darkmode()>
+            <img src="./icon/light1.png" class="theme icon-position" id="light-mode"  onclick=lightmode()>
+        
             <form class="d-flex" role="search">
                 <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
                 <button class="login" type="button">
-                    <a href="./pages/login.html"> <img src="./icons/index/login.png" class="login-img"
+                    <a href="./pages/login.html"> <img src="./icon/user-interface.png" class="login-img"
                             alt="login"></a>
                 
             </form>
@@ -62,29 +62,62 @@
 </nav>
 
 
-<div id="body">
-<div class="main-img"  id="body">
-      <img src="./img/index-images/store-img3.jpg" style="width: 100%;height: 600px">
-</div>
+
+
 <!-- Sliding img -->
-<div id="carouselExampleSlidesOnly" class="carousel slide moving-card moving-img-container" data-bs-ride="carousel">
+<div id="carouselExampleSlidesOnly" class="carousel slide moving-card moving-img-container " data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="500" id="bulb2">
-      <img src="./img/index-images/moving-img2.jpg" class="d-block w-100 moving-img" alt="...">
+      <img src="./img/index-images/index-img.webp" class="d-block w-100 moving-img" alt="...">
       <div class="carousel-caption d-none d-md-block">
       </div>
     </div>
-    <div class="carousel-item" data-bs-interval="600" id="bulb2">
-      <img src="./img/index-images/drip-irrigation2.jpg" class="d-block w-100 moving-img" alt="...">
+    <div class="carousel-item" data-bs-interval="1000" id="bulb2">
+      <img src="./img/index-images/index-img3.jpg" class="d-block w-100 moving-img" alt="...">
     </div>
-    <div class="carousel-item" data-bs-interval="700" id="bulb2">
-      <img src="./img/index-images/moving-img2.jpg" class="d-block w-100 moving-img" alt="...">
+    <div class="carousel-item" data-bs-interval="1500" id="bulb2">
+      <img src="./img/index-images/image-1500x500.jpg" class="d-block w-100 moving-img" alt="...">
     </div>
   </div>
-</div>
-    
-    </div> 
-  </div>
+
+ 
+
+  <!-- i -->
+  <h1 style="text-align: center;margin: 20px;">
+    ❤✔<br>
+  Trusted by lakhs of farmers
+  </h1>
+  <div class="container d-flex justify-content-evenly mx-auto mt-4 mb-4 flex-wrap ">
+
+
+      <div class="box border ">
+          <a href=""><img src="./icon/best-seller.png" alt="wildlife-tour" class="activity-icons">
+              <p class="activity-name">WILDLIFE</p>
+          </a>
+      </div>
+
+      <div class="box border ">
+          <a href=""><img src="./icon/delivery.png" alt="index/beach-tour" class="activity-icons">
+              <p class="activity-name">BEACH</p>
+          </a>
+      </div>
+
+      <div class="box border ">
+          <a href=""><img src="./icon/secure-payment.png" alt="index/adventure-tour" class="activity-icons">
+              <p class="activity-name">ADVENTURE</p>
+          </a>
+      </div>
+
+      <div class="box border ">
+        <a href=""><img src="./icon/customer-service.png" alt="index/adventure-tour" class="activity-icons">
+            <p class="activity-name">ADVENTURE</p>
+        </a>
+    </div>
+
+
+    </div>
+ 
+
 
 <!-- theme switcher -->
 

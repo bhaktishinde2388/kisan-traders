@@ -21,8 +21,9 @@
        
          .body-dark{
 
-            background-color: black;
+            background-color: rgb(16, 15, 15);
             color: white;
+            
          }
 
          .body-light{
@@ -31,4 +32,8 @@
           color: black;
 }
         
-       
+       .icon-position
+       {
+       margin-left: 10px;
+       margin-right: 10px;
+       }
