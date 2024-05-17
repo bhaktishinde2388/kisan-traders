@@ -1,4 +1,32 @@
 
+ /* navbar */
+
+ .nav-text
+ {
+  color: white;
+  font-size: 20px;
+ padding: 2px;
+
+ }
+
+ .nav-link {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+ 
+}
+.nav-link:hover {
+    color:orange;
+    border: 1px solid #ffab19;
+    border-radius: 10px;
+    padding: 1px;
+}
+.logo {
+    height: 50px;
+}
+
+.login-img {
+    height: 30px;
+}
 
 
 /* theme */

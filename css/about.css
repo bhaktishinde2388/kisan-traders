@@ -2,31 +2,54 @@
 
 .a-heading
 {  color: black;
-    text-align: left;
+    text-align: center;
     font-size: 50px;
     font-family: "Arimo", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    padding-left: 150px;
+    background-color: rgb(239, 229, 240);
 }
 
 .a-main
 {
-    border: 2px solid gray;
+   
   display: flex;
   flex-direction: row;
-  padding: 10px;
-  height: 600px;
-  margin: 20px;
-background: #ADA996;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+  padding:10px;
+  height:80%;
+  width: 100%;
 
 }
 .a-img
 {
-    height: 200px;
-    width: 200px;
-  padding: 20px;
+  border-radius: 10px;
+  padding: 30px;
+  width: 100%;
+}
+.a-img:hover{
+
+  transform: scale(1.080);
+  overflow: hidden;
+  transition: 1s;
+  background-color: rgb(239, 229, 240);
+}
+.a-text
+{
+  text-align: center;
+  font-size: 20px;
+  padding: 50px;
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+ border-radius: 50%;
+ 
+}
+.a-text:hover{
+
+  background-color: rgb(239, 229, 240);
+  transition: 1s;
 }

@@ -12,60 +12,128 @@
      <link rel="stylesheet" href="./../css/about.css">
 
 </head>
-<body style="background-color: var(--bg-overlay-color);    background-image: var(--bg-gradient);
-transition: var(--inherit-transition);">
-     <!--navbar  -->
-     <nav class="navbar navbar-expand-lg bg-body-tertiary fix-top py-3">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">
-                <img src="./icons/index/logo.png" class="logo" alt="logo">
-            </a>
+<body  id="body">
+    <!--navbar  -->
+    <nav class="navbar navbar-expand-lg  fix-top py-3 " style="background-color: green;">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+              <img src="./../icons/index/logo.png" class="logo" alt="logo">
+          </a>
+  
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item  ">
+                     <a class="nav-link  nav-text px-4 " aria-current="page" href="./../index.html">Home</a>
+               </li>
+                  <li class="nav-item">
+                     <a class="nav-link nav-text px-4" href="./../pages/about.html">About Us</a>
+                  </li>
+  
+                  <li class="nav-item">
+                          <a class="nav-link nav-text px-4" href="./../pages/product.html">Product</a>
+                  </li>
+  
+                  <li class="nav-item">
+                          <a class="nav-link nav-text px-4" href="./../pages/contact.html">Contact</a>
+                  </li>
     
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                  <li class="nav-item  ">
-                       <a class="nav-link  nav-text px-4" aria-current="page" href="./../index.html">Home</a>
+                  <li class="nav-item">
+                      <a class="nav-link nav-text px-4"
+                              href="./../pages/review.html">Reviews</a>
                  </li>
-                    <li class="nav-item">
-                       <a class="nav-link nav-text px-4" href="./../pages/about.html">About Us</a>
-                    </li>
-    
-                    <li class="nav-item">
-                            <a class="nav-link nav-text px-4" href="./../pages/product.html">Product</a>
-                    </li>
-    
-                    <li class="nav-item">
-                            <a class="nav-link nav-text px-4" href="./../pages/contact.html">Contact</a>
-                    </li>
-      
-                    <li class="nav-item">
-                        <a class="nav-link nav-text px-4"
-                                href="./../pages/review.html">Reviews</a>
-                   </li>
-                </ul>
-    
-                <form class="d-flex" role="search">
-                    <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
-                    <button class="login" type="button">
-                        <a href="./../pages/login.html"> <img src="./icons/index/login.png" class="login-img"
-                                alt="login"></a>
-                    
-                </form>
-            </div>
-        </div>
-    </nav>
+              </ul>
+              
+              <img src="./../icon/night-mode (1).png" class="theme icon-position  " id="dark-mode" onclick=darkmode()>
+              <img src="./../icon/light1.png" class="theme icon-position" id="light-mode"  onclick=lightmode()>
+          
+              <form class="d-flex" role="search">
+                  <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                  <button class="login" type="button">
+                      <a href="./../pages/login.html"> <img src="./../icon/user-interface.png" class="login-img"
+                              alt="login"></a>
+                  
+              </form>
+          </div>
+      </div>
+  </nav>
 
-     
-     <div class="a-main">
+
+<!-- main section -->
+<!-- 
+<div class="a-main" >
+
+    <div >
+      <h1 class="a-heading">About Us</h1>
+        <p class="a-text" >WELCOME TO JAI HIND KISAN AGRO
+            Jai Hind Kishan Agro is leading supplier of gartner and agricultural tool with a motive to implementing a clear corporate principle: making work in the garden and agricultural field easier through innovations & technology opening up new markets in the agriculture and garden sector, and establishing a clear positioning of the brand. 
+            In all of this we are always concerned about the needs of our customers and place this goal at the forefront: Putting more fun into gardening!</p>
+    </div>
+            <div > 
+            <img src="./../img/index-images/store-img3.jpg" class="a-img">
+          </div>
+    
+
+    </div>
+     -->
+    
+<br><br>
+    <h1 class="a-heading">ABOUT US</h1>
+    <p class="a-text" >❤🤍WELCOME TO KISAN TRADERS🤍❤<BR>
+        KISAN TRADERS is leading supplier of gartner and agricultural tool with a motive to implementing a clear corporate principle: making work in the garden and agricultural field easier through innovations & technology opening up new markets in the agriculture and garden sector, and establishing a clear positioning of the brand. 
+        In all of this we are always concerned about the needs of our customers and place this goal at the forefront: Putting more fun into gardening!</p>
+    
+    <div class="a-main">
         <div>
-    <h1 class="a-heading">Kisan Traders</h1>
-</div>
-<div >
-    <div class="a-img"><img src="../img/index-images/store-img3.jpg" ></div>
+            <img src="./../img/index-images/store-img3.jpg" class="a-img">
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div>
+            <img src="./../img/index-images/store-imgg2.jpg" class="a-img">
+        </div>
+    </div>
+    <!-- MILESTONE -->
+    <h1 class="a-heading">MILESTONES</h1>
+
+    <div class="container d-flex justify-content-evenly mx-auto mt-4 mb-4 flex-wrap ">
+
+        <div class="index-product-cards border " style=" background-color:rgb(244, 240, 170);height: 230PX;">
+           
+            <hr>
+            <p class="activity-name">2005-07
+                Market research<BR>
+                Incorporation<BR>
+                3 products<BR>
+                1 employee<BR>
+                Certification by GKVK<BR>
+                Karnataka Subsidy Approval</p>
+                <HR>
+        </div>
+        </div>
+    
 </div>
 
+<!-- BUSINESS PROFILE -->
+    <h1 class="a-heading">BUSINESS PROFILE</h1>
+    <div >
+    <div style="font-size: 20px;padding: 50px;">
+        🤍Products covering all major processes of farming (land preparation, planting, crop management, harvesting and post-harvest processing)<br>
+        🤍 Designed Specifically for Indian Conditions<br>
+        🤍14+ Product Segments, 300+ SKUs
+    </div>
+<img src="./../img/product/about.jpg" class="a-img">
 </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+
+
+
+
+
+
+
+
+
+
+<!-- theme -->
+<script src="./../js/index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
      crossorigin="anonymous"></script> 
 </body>

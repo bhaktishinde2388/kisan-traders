@@ -1,33 +1,5 @@
 
-   /* navbar */
-
-   .nav-text
-   {
-    color: white;
-    font-size: 20px;
-   padding: 2px;
   
-   }
-
-   .nav-link {
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-   
-  }
-  .nav-link:hover {
-      color:orange;
-      border: 1px solid #ffab19;
-      border-radius: 10px;
-      padding: 1px;
-  }
-  .logo {
-      height: 50px;
-  }
-
-  .login-img {
-      height: 30px;
-  }
-
   /* main img */
 
   .main-img
@@ -64,7 +36,7 @@
 }
 .moving-img
 {
-  border: 5px solid green;
+  border: 2px solid green;
     height:100%;
     width: 80%;
 
@@ -94,11 +66,12 @@
 
 
 
-
+/* main */
 .activity-name {
   text-align: center;
   margin: 5px auto;
   font-size: 15px;
+  font-weight: bold;
 }
 .box {
   height: 150px;
@@ -122,8 +95,49 @@
 
   
 }
+/* product cards */
+.index-product-cards
+{
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px #a4a4a4;
+ 
+}
+.index-product-cards-img
+{
+  display: block;
+  height: 170px;
+  margin: 10px auto;
+}
+.index-product-cards-text
+{
+  text-align: center;
+  margin: 5px auto;
+  font-size: 15px;
+  font-weight: bold;
+}
+.index-product-cards:hover {
+  transform: scale(1.080);
+  box-shadow: 0 0 5px 1px green;
+  overflow: hidden;
+  transition: 1s;
+}
 
-
+/* sample */
+.sample-product-cards
+{
+  height: 450px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px #a4a4a4;
+}
+.sample-product-cards-img
+{
+  display: block;
+  height: 200px;
+  margin: 10px auto;
+}
 
 
 
