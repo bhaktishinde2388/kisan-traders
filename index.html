@@ -16,7 +16,7 @@
 
      </style>
 </head>
-<body id="body">
+<body>
   <!--navbar  -->
   <nav class="navbar navbar-expand-lg  fix-top py-3 " >
     <div class="container-fluid">
@@ -60,7 +60,10 @@
         </div>
     </div>
 </nav>
-<div class="main-img">
+
+
+<div id="body">
+<div class="main-img"  id="body">
       <img src="./img/index-images/store-img3.jpg" style="width: 100%;height: 600px">
 </div>
 <!-- Sliding img -->
@@ -81,45 +84,14 @@
 </div>
     
     </div> 
-    
-    
-
-
-
-
-
+  </div>
 
 <!-- theme switcher -->
 
 
 
-<script>
-  function darkmode(){
-      const darkMode= document.getElementById("dark-mode")
-      darkMode.classList.add('active')
+<script src="./js/index.js">
 
-      const lightMode= document.getElementById("light-mode")
-      lightMode.classList.remove('active')
-
-      const body= document.getElementById("body")
-      body.className = "body-dark"
-
-
-  }
-
-  function lightmode(){
-
-      const lightMode= document.getElementById("light-mode")
-      lightMode.classList.add('active')
-
-      const darkMode= document.getElementById("dark-mode")
-      darkMode.classList.remove('active')
-
-      const body= document.getElementById("body")
-      body.className = "body-light"
-
-      
-  }
 </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
