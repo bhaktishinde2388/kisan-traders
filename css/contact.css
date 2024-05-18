@@ -14,6 +14,26 @@
     background-size: cover;
  
 }
+@media screen and (max-width:768px)
+  {
+    .c-main
+  {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1000px;
+    
+  }
+}
+@media screen and (max-width:768px)
+  {
+    .map
+  {
+    display: block;
+    margin: auto;
+    margin-bottom: 100%;
+    width: 100%;
+  }
+}
 .c-heading{
   color: black;
   text-align: left;
@@ -41,4 +61,13 @@
   height: 100px;
   width: 100px;
 padding: 20px;
+}
+@media screen and (max-width:768px)
+  {
+    .c-img
+  {
+ 
+    margin: auto;
+   
+  }
 }
