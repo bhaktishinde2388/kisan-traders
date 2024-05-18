@@ -25,3 +25,25 @@ function lightmode(){
 
     
 }
+
+//img toggler
+function cake(b)
+{
+   const flavour = document.getElementById('bulb');
+   if(b=='butter scotch')
+   {
+   flavour.src = './../img/index-images/store-img3.jpg';
+   }
+   else if(b=='chocolate')
+    {
+        flavour.src = './../img/index-images/store-imgg2.jpg';
+    }
+    else if(b=='Fruit')
+    {
+        flavour.src = './../img/index-images/store-img3 (2).jpg';
+    }
+   
+    const choice=document.getElementById("flavour");
+
+choice.innerText=`Flavour :\n ${b}`; 
+}
