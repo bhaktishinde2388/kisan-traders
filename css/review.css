@@ -24,6 +24,7 @@ padding: 0;
  box-shadow: 0 0 5px 1px #a4a4a4;
  background-color: #85FFBD;
 background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+margin-bottom: 40px;
 
 }
 .r-card:hover
@@ -47,6 +48,7 @@ background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
   cursor: pointer;
   margin: 20px;
   font-size: 20px;
+
 }
 
  #submitBtn:hover {
@@ -56,6 +58,7 @@ background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
 
   overflow: hidden;
   transition: 1s;
+
  /* background-color: #0056b3;*/
 }
 

@@ -11,78 +11,30 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./../css/login.css">
     <link rel="stylesheet" href="./../css/index.css">
+    <link rel="stylesheet" href="./../css/product.css">
     
 </head>
 
-<body>
-  <!--navbar  -->
-  <nav class="navbar navbar-expand-lg  fix-top py-3 " style="background-color: green;">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-        <a class="navbar-brand" href="./index.html">
-            <img src="./icons/index/logo.png" class="logo" alt="logo">
-        </a>
-
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-              <li class="nav-item  ">
-                   <a class="nav-link  nav-text px-4 " aria-current="page" href="./index.html">Home</a>
-             </li>
-                <li class="nav-item">
-                   <a class="nav-link nav-text px-4" href="./pages/about.html">About Us</a>
-                </li>
-
-                <li class="nav-item">
-                        <a class="nav-link nav-text px-4" href="./pages/product.html">Product</a>
-                </li>
-
-                <li class="nav-item">
-                        <a class="nav-link nav-text px-4" href="./pages/contact.html">Contact</a>
-                </li>
-  
-                <li class="nav-item">
-                    <a class="nav-link nav-text px-4"
-                            href="./pages/review.html">Reviews</a>
-               </li>
-            </ul>
-            
-            <img src="./icon/night-mode (1).png" class="theme icon-position  " id="dark-mode" onclick=darkmode()>
-            <img src="./icon/light1.png" class="theme icon-position" id="light-mode"  onclick=lightmode()>
-        
-            <form class="d-flex" role="search">
-                <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
-                <button class="login" type="button">
-                    <a href="./pages/login.html"> <img src="./icon/user-interface.png" class="login-img"
-                            alt="login"></a>
-                
-            </form>
-        </div>
-    </div>
-</nav>
+<body id="body">
 <div class="main">
 <div class="login-form-container">
            <div >
           <h1>Login</h1>
           <label >
-            <input class="input"type="text" value="" placeholder="Enter Username">
+            <input class="input"type="text" value="" placeholder="Enter Username" >
         </label>
         <br><br>
         <label >
             <input class="input"type="password" value="" placeholder="Enter Password">
-        </label>
-        <button type="button" class="btnb">Login</button>
+        </label><br><br>
+        <a href="./../index.html" style="text-decoration: none;width: 80px;"><button class="btnb"  type="button" onclick="alert('login successfully')" >LOGIN</button></a>
              
             </div>
 </div>
         <img src="./../img/index-images/login (2).jpg" class="login-img">
         
-</div>
-
-    
-    
-                        
+</div>   
+                
 </body>
 
 </html>

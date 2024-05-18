@@ -39,6 +39,7 @@ font-optical-sizing: auto;
     flex-direction: row;
     height: 600px;
       margin: auto;
+      margin-top: 40px;
 
 }
 .main
