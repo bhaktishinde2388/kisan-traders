@@ -1,0 +1,54 @@
+.login-form-container{
+
+padding: 30px;
+width: 50%;
+margin: 20px;
+display: block;
+margin: 0 auto;
+margin-top: 50px;
+border-radius: 10px;
+font-family: "Arimo", sans-serif;
+font-optical-sizing: auto;
+
+
+}
+.login-form-container:hover{
+  
+ 
+}
+.input
+{
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+.input:hover{
+  
+    box-shadow: 0 0 5px 1px green;
+    transition: 1s;
+  
+}
+.main 
+{
+  
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 1px #a4a4a4;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+      margin: auto;
+
+}
+.main
+{
+
+box-shadow: 0 0 5px 1px green;
+overflow: hidden;
+transition: 1s;
+}
+.login-img
+{
+    width: 50%;
+}
